@@ -1,0 +1,89 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+	background-color: #ffe6ff;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+	margin-top:15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.content {
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+
+.countdowner {
+	float: right;
+	margin-right: 25%;
+	font-size: 50px;
+}
+
+#countDown {
+	margin-left: 25px;
+}
+
+.lcimage {
+	width: 250px;
+}
+
+body {
+}
+
+.body-content {
+	height: 600px;
+}
+
+#HomeBlogContainer {
+    width: 48%;
+    float: left;
+    height: 500px;
+	overflow-y: scroll;
+	margin-top: 15px;
+}
+
+#HomeRSVPContainer {
+    width: 48%;
+    float: left;
+    height: 125px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+#HomeRSVPContainer a {
+    margin-left: 25%;
+    margin-top: 25px;
+    padding-top: 7px;
+    width: 300px;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carouselimage {
+	width: 300px;
+	margin-left: 29%;
+}
