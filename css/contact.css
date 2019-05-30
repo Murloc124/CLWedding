@@ -1,0 +1,8 @@
+#ContactTable {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#ContactTable tr td:first-child {
+    width: 25%;
+}

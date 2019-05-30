@@ -1,0 +1,31 @@
+body {
+}
+
+#HomeBlogContainer {
+    width: 50%;
+    float: left;
+    height: 250px;
+}
+
+#HomeRSVPContainer {
+    width: 50%;
+    float: left;
+    height: 125px;
+}
+
+#HomeRSVPContainer a {
+    margin-left: 25%;
+    margin-top: 25px;
+    padding-top: 7px;
+    width: 300px;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#HomeGalleryContainer {
+    width: 50%;
+    float: left;
+    height: 125px;
+    padding-top: 15px;
+}

@@ -1,0 +1,31 @@
+#BrideContainer {
+    width: 45%;
+    float: left;
+    border: 1px solid black;
+}
+
+#GroomContainer {
+    width: 45%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+.subContainer {
+    height: 300px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+.subContainer img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#GeneralContainer {
+    padding-top: 15px;
+}
