@@ -6,65 +6,67 @@
     <title>CL Wedding - Contact</title>
 	
 	<!-- Styles -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
 	<link rel="stylesheet" href="css/Site.css" />
 	<link rel="stylesheet" href="css/contact.css" />
 	
 </head>
 <body>
 	<!-- Header -->
-    <div>Afbeelding Lindsay + Cedric(Links - Boven header)</div>
-    <div class="left">Countdown (Rechts - Boven Header)</div>
+	<div class="container content">
+		<div style="margin-bottom:10px">
+			<img src="img/Test.jpg" class="rounded-lg img-thumbnail lcimage"></img>
+			<div class="countdowner">
+				<p> Time Until Wedding:</p>
+				<p id="countDown"></p>
+			</div>
+		</div>
 
-	<!-- Nagivation -->
-    <div class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="rsvp.html">RSVP</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
-                    <li><a href="links.html">Usefull Links</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="weddingparty.html">Wedding Party</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+		<!-- Nagivation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+					<li class="nav-item"><a class="nav-link" href="rsvp.html">RSVP</a></li>
+					<li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+					<li class="nav-item"><a class="nav-link" href="links.html">Usefull Links</a></li>
+					<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="weddingparty.html">Wedding Party</a></li>
+				</ul>
+			</div>
+		</nav>
 
-	<!-- Body -->
-    <div class="container body-content">
-        <h2>Contact information</h2>
+		<!-- Body -->
+		<div class="container body-content">
+			<h2>Contact information</h2>
 
-		<table id="ContactTable">
-			<tr>
-				<td>Address:</td>
-				<td>Emeric De Bruynelaan 3, 9940 Sleidinge (Eventueel met Google Maps kaartje?)</td>
-			</tr>
-			<tr>
-				<td>Email Lindsay</td>
-				<td>vn_lindsay@hotmail.com</td>
-			</tr>
-			<tr>
-				<td>Email Cédric</td>
-				<td>allycedric@mail.com</tr>
-		</table>
-		
-        <hr />
-    </div>
-	
-	<!-- Footer -->
-	<footer>
-		<p>Dit is de footer - Link naar Contact in zetten?</p>
-	</footer>
+			<table id="ContactTable">
+				<tr>
+					<td>Address:</td>
+					<td>Emeric De Bruynelaan 3, 9940 Sleidinge (Eventueel met Google Maps kaartje?)</td>
+				</tr>
+				<tr>
+					<td>Email Lindsay</td>
+					<td>vn_lindsay@hotmail.com</td>
+				</tr>
+				<tr>
+					<td>Email Cédric</td>
+					<td>allycedric@mail.com</tr>
+			</table>
+			
+			<hr />
+		</div>
+	</div>
 
     <!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/site.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>

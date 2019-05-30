@@ -1,16 +1,24 @@
 body {
 }
 
+.body-content {
+	height: 600px;
+}
+
 #HomeBlogContainer {
-    width: 50%;
+    width: 48%;
     float: left;
-    height: 250px;
+    height: 500px;
+	overflow-y: scroll;
+	margin-top: 15px;
 }
 
 #HomeRSVPContainer {
-    width: 50%;
+    width: 48%;
     float: left;
     height: 125px;
+	margin-left: 25px;
+	margin-top: 15px;
 }
 
 #HomeRSVPContainer a {
@@ -23,9 +31,7 @@ body {
     font-weight: bold;
 }
 
-#HomeGalleryContainer {
-    width: 50%;
-    float: left;
-    height: 125px;
-    padding-top: 15px;
+.carouselimage {
+	width: 300px;
+	margin-left: 29%;
 }
